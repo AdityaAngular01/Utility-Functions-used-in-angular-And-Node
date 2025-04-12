@@ -1,6 +1,4 @@
-//@ts-ignore
 import { Injectable, Renderer2, RendererFactory2 } from '@angular/core';
-//@ts-ignore
 import { LocalStorageService } from '../storage/local/local-storage.service';
 
 @Injectable({

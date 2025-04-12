@@ -1,10 +1,6 @@
-//@ts-ignore
 import { Injectable } from '@angular/core';
-//@ts-ignore
 import Swal from 'sweetalert2';
-//@ts-ignore
 import { ISweetAlertConfirmModel, ISweetAlertConfirmModel2, AlertResponse, IToast } from '../../model';
-//@ts-ignore
 import { pick } from '../../util/pick';
 @Injectable({
   providedIn: 'root'

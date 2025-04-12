@@ -1,16 +1,9 @@
-//@ts-ignore
 import { HttpErrorResponse, HttpInterceptorFn } from '@angular/common/http';
-//@ts-ignore
 import { catchError, switchMap } from 'rxjs/operators';
-//@ts-ignore
 import { throwError, Observable, of } from 'rxjs';
-//@ts-ignore
 import { inject } from '@angular/core';
-//@ts-ignore
 import { AuthService } from '../service/http/auth/auth.service';
-//@ts-ignore
 import { Router } from '@angular/router';
-//@ts-ignore
 import { CookieService } from 'ngx-cookie-service';
 
 let isRefreshing = false;

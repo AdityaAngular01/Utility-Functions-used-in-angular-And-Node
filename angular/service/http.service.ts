@@ -1,10 +1,6 @@
-//@ts-ignore
 import { HttpClient, HttpParams } from '@angular/common/http';
-//@ts-ignore
 import { Injectable } from '@angular/core';
-//@ts-ignore
 import { Observable, Subscription } from 'rxjs';
-//@ts-ignore
 import { environment } from '../../../../environments/environment';
 
 @Injectable({
